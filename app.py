@@ -43,9 +43,9 @@ else:
     elif selection == "Album photo":
         st.title("📸 Album photo")
         photos = [
-            "img/chat1.jpg",
-            "img/chat2.jpg",
-            "img/chat3.jpg",
+            "chat1.jpg",
+            "chat2.jpg",
+            "chat3.jpg",
         ]
         col1, col2, col3 = st.columns(3)
         with col1:
